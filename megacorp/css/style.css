@@ -1,0 +1,203 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/banner.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%),url("../img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+.nav-container{
+    position: relative;
+}
+#my-navigation{
+    background: none;
+    border: 0;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 100000;
+   
+}
+#my-navigation a{
+    color: #fff;
+}
+#my-navigation h1{
+    font-weight: 600;
+    position: relative;
+    top: -30px;
+}
+.my-button{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+.banner-text{
+    padding: 100px 0px;
+    position: relative;
+    top: 200px;
+}
+.banner-text h1{
+    font-size: 30px;
+  
+}
+.banner-text p{
+    color: #dfdfdf;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.blue-button{
+    width: 130px;
+    height: 40px;
+    background-color: steelblue;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+/* three-section starts */
+.black-wrapper{
+    background-color: black;
+    color: #dfdfdf;
+    padding: 70px 0px;
+}
+.three-section span{
+    font-size: 40px;
+    padding: 20px 0px;
+    
+}
+.three-section p{
+    color: grey;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+
+/* last-section */
+.last-part{
+    background-color: #101214;
+    color: #dfdfdf;
+    padding: 40px 0px;
+}
+
+.left img{
+    width: 100%;
+    
+}
+.left h3{
+    margin-bottom: 30px;
+}
+.left p{
+    color: grey;
+    padding: 20px 0px;
+}
+.left hr{
+    color: grey;
+    
+}
+
+.left1 p{
+    color: grey;
+   padding-top: 10px;
+   padding-bottom: 20px;
+    line-height: 25px;
+}
+.left1 .button{
+   width: 12s0px;
+   height: 30px;
+   background-color: steelblue;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    float: left;
+  margin-top: 10px;
+}
+.left1 h5{
+   text-align: right;
+   margin-right: 150px;
+  padding-top: 20px;
+}
+
+
+.left2 hr{
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.left2 li{
+    color: grey;
+    line-height: 23px;
+    font-size: 14px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+.left2 h3{
+    margin-bottom: 0px;
+    
+}
+.left2 h5{
+    margin-top: 1px;
+}
+
+
+
+
+
+
+/* right part start */
+.right{
+    padding-bottom: 20px;
+}
+
+.right li{
+    list-style: square;
+   font-size: 15px;
+   color: gray;
+   margin-bottom: 10px;
+  
+   
+}
+.right h3{
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.right hr{
+    margin-top: 5px;
+    margin-bottom: 10px;
+} 
+hr{
+    border-color: grey;
+    border-width: 1px;
+    
+    
+}
+
+
+/* right second part start */
+.four-row{
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+}
+.four-row img{
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.four-row p{
+    margin-top: 30px;
+    color: grey;
+
+}
+
+/*footer */
+.footer p{
+    color: grey;
+    font-size: 13px;
+}
